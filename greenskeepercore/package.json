@@ -1,15 +1,21 @@
 {
   "name": "greenskeepercore",
   "version": "1.0.0",
-  "description": "node backend for greenskeeper",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "keywords": [],
-  "author": "jlmarciniak",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "pg": "^8.10.0"
+  },
+  "description": "Greenskeepercore backend",
+  "main": "index.js",
+  "author": "jlmarciniak",
+  "license": "MIT"
 }
