@@ -1,0 +1,15 @@
+{
+  "name": "greenskeepercore",
+  "version": "1.0.0",
+  "description": "node backend for greenskeeper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "jlmarciniak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
